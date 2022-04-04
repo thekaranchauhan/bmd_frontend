@@ -1,0 +1,71 @@
+* {
+   box-sizing: border-box;
+}
+
+.play {
+   width: auto;
+   padding:10px;
+}
+
+.play h2{
+   color: #000;
+   text-align: center;
+   margin: 0;
+}
+
+.rules{
+   background-color: #D61939;
+   border-radius: 25px;
+   margin-top: 20px;
+   padding: 10px;
+}
+
+.rules p{
+   color: #fff;
+   text-align: center;
+   margin-top: 20;
+}
+
+.play-button{
+   margin-top: 20px;
+   background-color: #FAE300;
+   border: none !important;
+   border-radius: 20px;
+   padding: 15px 32px;
+   font-weight:  bold;
+   cursor: pointer;
+}
+
+.game-intro{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding:1rem 3rem;
+   background-color:#D61939;
+   padding-bottom: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+.gameHeading{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.game-intro h1{
+   color: white;
+   font-size: 23px;
+}
+
+.game-intro button{
+   text-align: center;
+   width: 13rem;
+}
+
+.game-intro button a{
+   color: black;
+}
+
+.play-btn{
+   margin-top: 1rem;
+}

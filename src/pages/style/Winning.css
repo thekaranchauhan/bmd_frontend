@@ -1,0 +1,71 @@
+
+.winMsg{
+   background-color:#D61939;
+}
+
+.winPrize {
+   display: flex;
+   justify-content: center;
+   background-color: #D61939;
+   margin: 0 0.5rem;
+   border-radius: 23px ;
+   padding: 1.5rem 0.5rem;
+}
+
+.questionHeading{
+   margin: 3rem 0.8rem 0 0.8rem;
+   text-align: center;
+}
+
+.winPrize img{
+   width: 80%;
+}
+
+.question{
+   margin: 1rem 3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.question button{
+   width: 10rem;
+   height: 3rem;
+   font-size: 18px;
+   margin: 2rem 0;
+}
+
+.winmsgg{
+   background-image: url(../../assets/confetti.png);
+   height: 140px;
+   margin-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   border-radius: 10px;
+   border-width: 1px;
+   border-color: #D61939;
+}
+.winprz{
+   background-color: #D61939;
+   height: 100px;
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+   border-radius: 10px;
+   border-width: 1px;
+   border-color: #D61939;
+}
+
+
+.prizebtn{
+   color: white;
+   background-color: #D61939;
+   border-radius: 10px;
+   border-width: 1px;
+   border-color: #D61939;
+   width: 100px;
+   height: 30px;
+   margin-top: 10px;
+}

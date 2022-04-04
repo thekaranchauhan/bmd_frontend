@@ -1,0 +1,28 @@
+.terms-page p {
+   text-align: justify;
+}
+
+.terms-page h3 {
+   text-align: center;
+   font-weight: bold;
+}
+
+.terms-page li {
+   text-align: justify;
+}
+
+.terms-page{
+   height: 500px;
+   padding: 0 2rem;
+   overflow: scroll;
+}
+
+.buttonss{
+   margin-top: 3rem;
+   display: flex;
+   justify-content: center;
+}
+
+.buttonss button:focus{
+   background-color: #D61939;
+}

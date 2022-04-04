@@ -1,0 +1,70 @@
+#game {
+   padding:  10px;
+   margin-bottom: 5rem;
+}
+
+p {
+   font-size: 20px;
+}
+
+.card-grid {
+   margin-top: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 different columns in grid */
+   grid-gap: 10px;
+}
+
+.scoreboard{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1rem;
+}
+
+.scoreboard p span{
+   font-weight: 600;
+}
+
+.scoreboard p{
+   font-size: 16px;
+   margin: 0.3rem;
+}
+
+.scoreboard div{
+   padding: 0.5rem;
+   background-color: #F2F2F2;
+}
+
+.buttons{
+   margin-top: 2rem;
+   display: flex;
+   justify-content: center;
+   gap:2rem;
+}
+
+.startBtn{
+   background-color:#D61939;
+   border: none;
+   height: 2.5rem;
+   width: 8rem;
+   border-radius: 13px;
+   font-weight: 600;
+   color: white;
+}
+
+.startBtn:focus{
+   background-color: #D61939;
+}
+
+.prizeBtn:focus{
+   background-color:#FAE300;
+}  
+
+.prizeBtn{
+   background-color:#FAE300;
+   border: none;
+   height: 2.5rem;
+   width: 8rem;
+   border-radius: 13px;
+   font-weight: 600;
+   color: black;
+}
